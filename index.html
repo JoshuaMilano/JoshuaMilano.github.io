@@ -6,17 +6,24 @@
   <meta name="viewport" content="width=device-width">
   <title>Joshua Milano</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-    <!-- Scroll Magic and AnimeJS -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- this is an old version of jquery but I had no trouble with it -->
+    <!--  \/  Scroll Magic and AnimeJS  \/  -->
+
+    <!-- Apparently these are required -->
+      <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> this is an old version of jquery but I had no trouble with it -->
       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script> -->
+    <!-- END -->
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
-    <!-- ScrollMagic and AnimeJS -->
+    <!--  /\  ScrollMagic and AnimeJS  /\  -->
 </head>
 
 <body>
-  <div id="one"></div>
+
+<!-- Recode Scene1 - Not sure if CSS Grid is the way to go...-->
+
   <div id="scene1">
     <div class="profilePicture">
       <img class="pfp" src="img\JoshuaPFP.jpg" alt="Picture of Joshua Milano">
@@ -26,6 +33,7 @@
     </div>
   </div>
 
+  <!-- First Image Scene -->
   <div class="scene imageScene">
     <div class="imagecontainer">
       <div class="DEBUG"></div>
@@ -36,6 +44,8 @@
       <div class="DEBUG"></div>
     </div>
   </div>
+
+  <!-- END -->
   <script src="script.js"></script>
 </body>
 

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+/* TODO */
+/* Improve image debug view = basically explain that Debug replaces all images with grey squares for fixing site scaling and other stuff */
+/* Remove redundant code */
+
+
 html {
   height: 100%;
   width: 100%;
@@ -19,6 +24,7 @@ h1 {
   font-size: 7.993rem;
 }
 
+/*  \/  DEBUG Currently styling divs so I can code the image Scene */
 .DEBUG {
   background: rgb(100,100,100);
   aspect-ratio: 1/1;
