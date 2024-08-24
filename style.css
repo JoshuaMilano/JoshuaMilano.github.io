@@ -86,7 +86,7 @@ h1 {
 
 /*  \/  DEBUG Currently styling divs so I can code the image Scene */
 .DEBUG {
-  background: rgb(100,100,100);
+  background: rgb(215, 215, 215);
   aspect-ratio: 1/1;
   /* width: 100%; */
   /* Margin: auto; */
