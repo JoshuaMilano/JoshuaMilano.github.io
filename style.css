@@ -24,15 +24,6 @@ h1 {
   font-size: 7.993rem;
 }
 
-/*  \/  DEBUG Currently styling divs so I can code the image Scene */
-.DEBUG {
-  background: rgb(100,100,100);
-  aspect-ratio: 1/1;
-  /* width: 100%; */
-  /* Margin: auto; */
-  border-radius: .25rem;
-}
-
 /* Scene 1 */
 
 #scene1 {
@@ -59,16 +50,16 @@ h1 {
 /* Scene 1 */
 /* Scene Universal */
 .scene {
-  padding: 0px 16rem;
+  /* padding: 0px 16rem; */
+  padding: 0px 20.5rem;
 }
 /* Scene Universal */
-/* Scene 2 */
+/* Scene 2 \/ ImageScene */
 
 .imageScene {
   height: 100vh;
-  max-width: 100vw;
   /* padding: 1rem; */
-  background: yellow;
+  /* background: yellow; */
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -86,4 +77,20 @@ h1 {
   grid-template-rows: repeat(2, 1fr);
 }
 
-/* Scene 2 */
+.imagecontainer > button {
+  grid-area: 3 / 2 / 4 / 3;
+  height: 2.5rem;
+  border: 0px;
+  border-radius: .25rem;
+}
+
+/*  \/  DEBUG Currently styling divs so I can code the image Scene */
+.DEBUG {
+  background: rgb(100,100,100);
+  aspect-ratio: 1/1;
+  /* width: 100%; */
+  /* Margin: auto; */
+  border-radius: .25rem;
+}
+
+/* Scene 2 /\ ImageScene*/
