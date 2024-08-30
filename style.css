@@ -4,6 +4,14 @@
 /* Improve image debug view = basically explain that Debug replaces all images with grey squares for fixing site scaling and other stuff */
 /* Remove redundant code */
 
+/* colours */
+:root {
+  /* Light */
+  --background-light: white;
+  /* dark */
+  --background-dark: #0c0c0c;
+}
+
 
 html {
   height: 100%;
@@ -14,6 +22,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--background-dark);
 }
 
 img {
