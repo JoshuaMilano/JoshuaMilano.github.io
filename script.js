@@ -1,2 +1,2 @@
-document.querySelector('.play').onclick = animation.play;
-// document.querySelector('.return').onclick = animation.reverse;
+// document.querySelector('.play').onclick = animation.play;
+// // document.querySelector('.return').onclick = animation.reverse;

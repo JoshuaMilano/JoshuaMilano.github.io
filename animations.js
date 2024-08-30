@@ -4,8 +4,16 @@ var controller = new ScrollMagic.Controller();
 
 var scene = new ScrollMagic.Scene({
 triggerElement: "scene1",
-duration
+duration: "50%"
 })
+
+.addIndicators()
+
+// .setTween(anime({
+//   targets
+// }))
+
+.addTo(controller)
 
 var animation = anime({
     targets: '.div',

@@ -9,7 +9,7 @@
   /* Light */
   --background-light: white;
   /* dark */
-  --background-dark: #0c0c0c;
+  /* --background-dark: #0c0c0c; */
 }
 
 
@@ -22,14 +22,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--background-dark);
+  background-color: var(--background-light);
 }
 
 img {
   width: 100%;
 }
 
-h1 {
+.nameTitle {
   font-size: 7.993rem;
 }
 
